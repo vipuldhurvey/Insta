@@ -1,0 +1,27 @@
+ body {
+    height: 100%;
+    width: 100%;
+    color: rgb(248, 19, 179);
+    background-color: rgb(19, 10, 10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#gola {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgb(250, 250, 28),rgb(16, 240, 16),rgb(248, 11, 51),rgb(209, 8, 209),rgb(11, 11, 245));
+    padding: 5px;
+} 
+#gola img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
